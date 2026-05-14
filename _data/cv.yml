@@ -1,189 +1,233 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Yu Wang
+  label: PhD Researcher in Computational Linguistics (NLP)
+  email: janetleaves@foxmail.com
+  phone: "+86-159-2196-3626"
+  website: "https://yuwangjanet.github.io"
+  linkedin: "https://www.linkedin.com/in/yu-wang-875a68320"
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  Research_interests:
+    - Embodied Cognition
+    - Multimodal AI
+    - Theory of Mind in AI
+    - Social Intelligence
+    - Human-like Inference
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  Education:
+    - institution: The Hong Kong Polytechnic University
+      location: Hong Kong, SAR
+      degree: PhD in Computational Linguistics (NLP)
+      period: "Expected Aug 2026"
+      details:
+        - Hong Kong PhD Fellowship Scheme (HK$1.28M)
+        - Research focus: Multimodal AI, Embodied Cognition, Social Intelligence
 
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+    - institution: Peking University
+      location: Beijing, China
+      degree: MA in Computational Linguistics (NLP)
+      gpa: 3.84/4.0
+      period: "2019–2022"
+      details:
+        - National Scholarship (Top 0.5%)
+        - Research focus: Affective Computing, Emotion Recognition
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+    - institution: University of California, Berkeley
+      location: California, USA
+      degree: Exchange Program
+      gpa: 4.0/4.0
+      period: "2017"
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+    - institution: East China Normal University
+      location: Shanghai, China
+      degree: BA in Chemistry; Teaching Chinese to Speakers of Other Languages
+      gpa: 3.86/4.0
+      period: "2014–2019"
+      details:
+        - Shanghai Scholarship (Top 0.5%)
+        - Shanghai Excellent Graduate (Top 0.5%)
+        - Research focus: Irony Detection and Emotion Recognition
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+  Publications:
+    - title: "Do LLMs truly acquire embodied cognition and cultural conventions from text?"
+      venue: ACL 2026
+      status: Accepted
+      authors: "Wang, Y., Huang, C.-R., & Chersoni, E."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    - title: "This, That, and Others: Deictic Expressions and Referential Accessibility as a Diagnostic for Theory of Mind in Multimodal AI"
+      venue: Nature HSSC
+      status: Under Review
+      authors: "Wang, Y., Huang, C.-R., & Chersoni, E."
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+    - title: "This One or That One? A Study on Accessibility via Demonstratives with Multimodal Large Language Models"
+      venue: LREC 2026
+      status: Accepted
+      authors: "Wang, Y., Huang, C.-R., & Chersoni, E."
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+  Experience:
+    - role: PhD Researcher (HKPFS Fellow)
+      organization: Hong Kong Polytechnic University
+      location: Hong Kong
+      period: "2023–Present"
+      details:
+        - Conduct research on embodied cognition, Theory of Mind, and perspective-taking in LLMs/MLLMs.
+        - Developed MIRA (text-only) and DefQA (multimodal) benchmarks revealing systematic ToM failures (1.8–2.3% accuracy).
+        - Provided cross-linguistic and cross-modal evidence of lacking self–other differentiation in AI; published in Nature HSSC, ACL 2026, LREC.
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    - role: Visiting Scholar, AIR Lab (Robots Team)
+      organization: University of Turin
+      location: Turin, Italy
+      period: "2026–Present"
+      details:
+        - Build real-world multimodal benchmarks for embodied cognition and ToM in VLMs.
+        - Design robot-centered tasks requiring perspective-taking and grounded spatial reasoning.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    - role: Technical Advisor (AI & Robotics)
+      organization: Startup Incubation Projects
+      location: Hong Kong
+      period: "2024–2026"
+      details:
+        - Directed technical roadmap of A.egg.I smart refrigerator assistant; contributed to HKSTP funding success.
+        - Oversaw low-cost multi-source fusion navigation for embodied AI robots; supported Suzhou municipal grant acquisition.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+  Projects:
+    - title: "Deictic Expressions: Evaluating Embodied Cognition and Theory of Mind in LLMs"
+      period: "2024–2026"
+      details:
+        - Identified confounds in existing ToM benchmarks and introduced deictic accessibility as a cognitively grounded alternative.
+        - Built cross-linguistic and multimodal tasks showing LLMs/MLLMs default to egocentric perspectives.
+        - Work published in Nature HSSC, ACL 2026, LREC 2026; presented internationally.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    - title: "Embodied Cognition and ToM for Human–Robot Collaborative Reference Resolution"
+      period: "2026–Present"
+      details:
+        - Address challenges in human–robot reference resolution involving similar objects.
+        - Designed collaborative manipulation tasks and VLM datasets requiring perspective-taking and deictic reasoning.
+        - Exploring multi-agent inference integrating accessibility cues and embodied ToM.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+  Research_projects:
+    - title: Ministry of Education Key Research Project in Humanities and Social Sciences
+      topic: Lexical Semantic Knowledge Representation and Computing System in Chinese Parataxis Grammar
+      details:
+        - Worked on lexical semantic representation and computational modeling; supported system design and annotation.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    - title: National Social Science Foundation Major Project
+      topic: International Chinese Teaching Resources and Intelligent Education Platform (Internet+)
+      details:
+        - Contributed to intelligent educational resources, corpus construction, and pedagogical design.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    - title: 2030 New-Generation Artificial Intelligence Major Project
+      topic: Semantic Understanding Theory, Model, and Method with Natural Language as the Core
+      details:
+        - Participated in national-level AI research on semantic understanding and computational semantics.
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+  Skills:
+    languages_frameworks:
+      - Python
+      - PyTorch
+      - TensorFlow
+    libraries:
+      - HuggingFace Transformers
+      - OpenCV
+    experimental_methods:
+      - Eye Tracking
+      - Human Behavioral Data Collection
+      - Statistical Analysis
+    applications:
+      - Machine Learning Modeling
+      - LLMs
+      - VLMs
+      - AI Agent Development
+      - Agentic Workflow Engineering
 
-      - name: English
-        summary: "Fluent"
+  Full_publications:
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # ---- Top-tier International Venues ----
+    - authors: "Wang, Y., Huang, C.-R., & Chersoni, E."
+      year: 2026
+      title: "Do LLMs truly acquire embodied cognition and cultural conventions from text?"
+      venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
+      status: "Accepted"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    - authors: "Wang, Y., Huang, C.-R., & Chersoni, E."
+      year: 2026
+      title: "This one or that one? A study on accessibility via demonstratives with multimodal large language models."
+      venue: "Proceedings of the 2026 International Conference on Language Resources and Evaluation (LREC 2026)"
+      status: "Accepted"
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    - authors: "Wang, Y., Huang, C.-R., & Chersoni, E."
+      year: 2025
+      title: "This, that, and others: Deictic expressions and referential accessibility as a diagnostic for Theory of Mind in multimodal AI."
+      venue: "Humanities and Social Sciences Communications (Nature HSSC)"
+      status: "Under Review"
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    # ---- International Conferences ----
+    - authors: "Wang, Y., & Huang, C.-R."
+      year: 2024
+      title: "Word boundary decision: An efficient approach for low-resource word segmentation."
+      venue: "Proceedings of the 38th Pacific Asia Conference on Language, Information and Computation"
+      pages: "160–169"
+      notes: "Extended version under revision for Natural Language Processing"
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    - authors: "Wang, Y., Chersoni, E., & Huang, C.-R."
+      year: 2023
+      title: "Existence justifies reason: A data analysis on Chinese classifiers based on eye tracking and transformers."
+      venue: "Proceedings of the 37th Pacific Asia Conference on Language, Information, and Computation"
+      pages: "912–921"
+      awards: "Best Presenter & Best Paper on PRSLA"
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    - authors: "Wang, Y."
+      year: 2025
+      title: "A corpus-based study on the collocation of Chinese feeling nouns and classifiers."
+      venue: "Workshop on Chinese Lexical Semantics 2025"
+      publisher: "Springer"
+      status: "In press"
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    - authors: "Wang, Y., & Yuan, Y."
+      year: 2021
+      title: "A corpus-based study of factive verbs and its influencing factors."
+      venue: "Workshop on Chinese Lexical Semantics"
+      pages: "42–55"
+      publisher: "Springer"
+
+    - authors: "Wang, Y., Chen, Z., Yu, X., & Yang, S."
+      year: 2025
+      title: "LOW-COST-AI-DETECTOR: An Efficient and Cost-Effective LLM-Generated Chinese Text Detection Model for NLPCC2025 Shared Task 1."
+      venue: "CCF International Conference on Natural Language Processing and Chinese Computing"
+      pages: "296–303"
+      location: "Singapore"
+      publisher: "Springer Nature"
+
+    - authors: "Wang, Y., Qian, Y., Liang, K., Yang, Y., Yu, Z., & Huang, C.-R."
+      year: 2025
+      title: "System Report for CCL25-EvalTask4: A Factivity Detection Agent Based on RAG and Predicate Similarity Methods."
+      venue: "Proceedings of the 24th China National Conference on Computational Linguistics (CCL 2025)"
+      pages: "152–156"
+
+    - authors: "Wang, Y., & Yuan, Y."
+      year: 2022
+      title: "The Research on Automatic Recognition of the Double Negation Structure."
+      venue: "Proceedings of the 21st Chinese National Conference on Computational Linguistics"
+      pages: "24–34"
+
+    - authors: "Wang, Y., & Yuan, Y."
+      year: 2020
+      title: "Double Negative Recognition Based on Rules—Taking '不 v1 不 v2' as an Example."
+      venue: "Proceedings of the 19th Chinese National Conference on Computational Linguistics"
+      pages: "1–9"
+
+    # ---- Journal Articles ----
+    - authors: "Wang, Y., & Yuan, Y."
+      year: 2024
+      title: "Research on automatic recognition of double negation structures."
+      journal: "Journal of Chinese Information Processing"
+      volume: "38"
+      issue: "2"
+      pages: "36–45"
+
+    - authors: "Wang, Y., & Yuan, Y.-L."
+      year: 2022
+      title: "Rule-based recognition of double negation: A case study of 'bu V1 bu V2'."
+      journal: "Journal of Chinese Information Processing"
+      volume: "36"
+      issue: "4"
+      pages: "12–19"
